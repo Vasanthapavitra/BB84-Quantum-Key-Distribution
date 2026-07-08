@@ -1,47 +1,55 @@
 # 🔐 BB84 Quantum Key Distribution Simulator
 
-## Overview
 
-This project demonstrates the BB84 Quantum Key Distribution protocol using Python, Qiskit, and Streamlit.
+## 📌 Overview
 
-The application simulates secure quantum key exchange between Alice and Bob and detects possible eavesdropping using quantum measurement disturbance.
+The BB84 Quantum Key Distribution Simulator is an interactive application that demonstrates how quantum communication can be used to create a secure shared secret key between two users (Alice and Bob).
 
----
+The project simulates the BB84 protocol, where quantum bits (qubits) are transmitted through a quantum channel and any interception attempt can be detected due to quantum measurement disturbance.
 
-## Features
 
-- Alice enters binary data
-- Quantum bit encoding using Qiskit
-- Random basis selection
-- Bob measurement simulation
-- Shared secret key generation
-- Eve eavesdropping simulation
-- Error rate calculation
-- Transmission analysis dashboard
+## 🎯 Objective
 
----
+The main objective of this project is to demonstrate:
 
-## Technologies Used
+- Secure key generation using quantum principles
+- Quantum-based communication between Alice and Bob
+- Detection of eavesdropping attacks
+- The effect of quantum measurement on transmitted qubits
+
+
+## ⚛️ How It Works
+
+1. Alice prepares binary data and encodes it into quantum states.
+2. Alice and Bob randomly select measurement bases.
+3. Qubits are transmitted through the quantum channel.
+4. Bob measures the received qubits.
+5. Matching bases are selected to generate a shared secret key.
+6. Errors indicate possible eavesdropping.
+
+
+## ✨ Features
+
+✅ Interactive Streamlit web interface  
+✅ User-defined binary input  
+✅ Quantum bit encoding simulation  
+✅ Alice and Bob basis comparison  
+✅ Shared secret key generation  
+✅ Error rate calculation  
+✅ Eve (eavesdropping) simulation  
+✅ Detailed transmission analysis table  
+
+
+## 🖥️ Application Preview
+
+
+![BB84 Quantum Key Distribution Simulator](screenshots/bb84_app.png)
+
+
+## 🛠️ Technologies Used
 
 - Python
 - Streamlit
 - Qiskit
 - Pandas
-
----
-
-## How It Works
-
-1. Alice creates random bits.
-2. Alice chooses random quantum bases.
-3. Bits are encoded into qubits.
-4. Bob measures using random bases.
-5. Matching bases are kept.
-6. Remaining bits form the shared secret key.
-7. Errors indicate possible eavesdropping.
-
----
-
-## Run Project
-
-Install dependencies:
+- Quantum Computing Concepts
