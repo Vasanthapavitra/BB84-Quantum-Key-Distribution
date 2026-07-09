@@ -1,6 +1,5 @@
 # 🔐 BB84 Quantum Key Distribution Simulator
 
-
 ## 📌 Overview
 
 The BB84 Quantum Key Distribution Simulator is an interactive application that demonstrates how quantum communication can be used to create a secure shared secret key between two users (Alice and Bob).
@@ -39,11 +38,6 @@ The main objective of this project is to demonstrate:
 ✅ Eve (eavesdropping) simulation  
 ✅ Detailed transmission analysis table  
 
-
-## 🖥️ Application Preview
-
-
-![BB84 Quantum Key Distribution Simulator](screenshots/bb84_app.png)
 
 
 ## 🛠️ Technologies Used
